@@ -1,0 +1,40 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: yellow;
+    padding: 64px;
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.parrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
