@@ -6,7 +6,6 @@
 }
 
 body {
-    background-color: yellow;
     margin: 64px;
 }
 
@@ -26,7 +25,6 @@ body {
 .caja-elementos {
     width: 444px;
     height: 473px;
-    background-color: #fff;
     margin-top: 73px;
     padding: 0px 32px 32px 0;
     display: flex;
@@ -40,7 +38,6 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: red;
     margin-bottom: 24px;
     font-size: 56px;
     font-family: "AvenirLTStd-Heavy";
@@ -52,10 +49,11 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: green;
     margin-bottom: 24px;
     font-family: "AvenirLTStd-Roman";
     font-size: 26px;
+    color: var(--color-2);
+    opacity: 0.8;
 }
 
 .boton {
@@ -120,8 +118,12 @@ body {
 }
 
 .imagen-container-bajo {
-    background-color: blue;
-    
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1316px;
+    height: 438px;
+    overflow: hidden;
 }
 
 .imagen-container-bajo .imagen {
@@ -156,14 +158,12 @@ body {
 
 .imagen-container-bajo .imagen > p:first-child {
     font-family: "AvenirLTStd-Heavy";
-    font-size: 56px;
+    font-size: 26px;
+    color: var(--color-2);
+    opacity: 25%;
+
     margin-bottom: 4px;
 }
 
-.imagen-container-bajo .imagen > p:nth-child(2) {
-    font-family: "AvenirLTStd-Roman";
-    font-size: 26px;
-    color: var(--color-1);
-    margin-bottom: 4px;
-}
+
     
