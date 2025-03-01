@@ -15,8 +15,8 @@ body {
 body .contenido{
     width: 610px;
     height: 335px;
-    background-color: red;
-    border: 2px solid black; 
+    /* background-color: red; */
+    /* border: 2px solid black;  */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -30,7 +30,7 @@ body .contenido .titulo{
     font-family: AvenirLTStd-Heavy;
     font-size: 64px;
     margin-top: 0;
-    background: green;
+    /* background: green; */
     text-align: center;
 }
 
@@ -39,7 +39,7 @@ body .contenido .parrafo{
     margin-top: 24px;
     font-family: AvenirLTStd-Roman;
     font-size: 26px;
-    background: blue;
+    /* background: blue; */
     text-align: center;
 }
 
@@ -67,8 +67,8 @@ body .contenido .boton a{
 body .collage{
     width: 1312px;
     height: 592px;
-    background: yellow;
-    border: 2px solid black;
+    /* background: yellow; */
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,8 +77,8 @@ body .collage{
 body .collage .fila_1{
     width: calc(100% - 128px);
     height: 288px;
-    background: blue;
-    border: 2px solid black;
+    /* background: blue; */
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,8 +88,8 @@ body .collage .fila_1{
 body .collage .fila_2{
     width: calc(100% - 128px);
     height: 288px; 
-    background: green;
-    border: 2px solid black;
+    /* background: green; */
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +106,7 @@ body .collage .fila_2 .imagen_7,
 body .collage .fila_2 .imagen_8 {
     width: 316px;
     height: 288px;
-    background-color: red;
+    /* background-color: red; */
     border-radius: 16px;
     margin-right: 16px;
     overflow: hidden; 
