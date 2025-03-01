@@ -7,8 +7,7 @@
 
 body {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    place-items: center;
     padding: 64px;
 }
 
@@ -17,8 +16,25 @@ body .contenido{
     height: 335px;
     background-color: red;
     border: 2px solid black; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
 }
 
+body .contenido .titulo{
+    font-family: AvenirLTStd-Heavy;
+    font-size: 64px;
+    margin-top: 0;
+    background: green;
+    text-align: center;
+}
+
+
+
+
+/* 
 body .collage{
     width: 1312px;
     height: 592px;
@@ -38,4 +54,5 @@ body .collage .fila_2{
     height: 288px; 
     background: green;
     border: 2px solid black;
-}
+} 
+*/
