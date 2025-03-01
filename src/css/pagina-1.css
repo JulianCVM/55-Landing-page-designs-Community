@@ -1,0 +1,41 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding: 64px;
+}
+
+body .contenido{
+    width: 610px;
+    height: 335px;
+    background-color: red;
+    border: 2px solid black; 
+}
+
+body .collage{
+    width: 1312px;
+    height: 592px;
+    background: yellow;
+    border: 2px solid black;
+}
+
+body .collage .fila_1{
+    width: 1312px;
+    height: 288px;
+    background: blue;
+    border: 2px solid black;
+}
+
+body .collage .fila_2{
+    width: 1312px;
+    height: 288px; 
+    background: green;
+    border: 2px solid black;
+}
