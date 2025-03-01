@@ -31,7 +31,13 @@ body .contenido .titulo{
     text-align: center;
 }
 
-
+body .contenido .parrafo{
+    margin-top: 24px;
+    font-family: AvenirLTStd-Roman;
+    font-size: 26px;
+    background: blue;
+    text-align: center;
+}
 
 
 /* 
