@@ -24,6 +24,7 @@ body .contenido{
 }
 
 body .contenido .titulo{
+    color: var(--color-1);
     font-family: AvenirLTStd-Heavy;
     font-size: 64px;
     margin-top: 0;
@@ -32,12 +33,35 @@ body .contenido .titulo{
 }
 
 body .contenido .parrafo{
+    color: var(--color-1);
     margin-top: 24px;
     font-family: AvenirLTStd-Roman;
     font-size: 26px;
     background: blue;
     text-align: center;
 }
+
+body .contenido .boton{
+    margin-top: 24px;
+    width: 158px;
+    height: 54px;
+    background: var(--color-1);
+    border-radius: 16px;
+    color: var(--color-2);
+    font-family: AvenirLTStd-Roman;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 24px auto;
+}
+
+body .contenido .boton a{
+    text-decoration: none;
+    color: var(--color-2);
+}
+
 
 
 /* 
