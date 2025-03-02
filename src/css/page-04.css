@@ -1,20 +1,50 @@
 @import url(variables.css);
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body .contenido_grid{
+body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "derecha";
+    grid-template-areas: "content_right"; 
+    margin: 64px;
+    background-color: aqua;
+    height: 100vh; 
+    position: relative;
 }
 
-body .contenido_grid .content_right{
-    grid-area: "derecha";
-    width: 100%;
-    height: 100%;
+body .content_right {    
+    grid-area: content_right;
+    display: flex;
+    position: relative;
+    width: 724px;
+    height: 997px;
     background-color: red;
+    margin-left: 716px;
+    margin-top: 2px;
+}
+
+body .content_right .cabecera {
+    width: 500px;
+    height: 415px;
+    position: absolute;
+    top: 80px;
+    left: 112px;
+    right: 112px;
+    bottom: 502px;
+    background-color: blue;
+}
+
+body .content_right .text_list{
+    width: 500px;
+    height: 334px;
+    background-color: black;
+    position: absolute;
+    margin-top: 88px;
+    left: 112px;
+    right: 112px;
+    bottom: 80px;
 }
