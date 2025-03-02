@@ -103,3 +103,61 @@ body{
     font-family: "Work_Sans";
     text-decoration: none;
 }
+
+
+
+
+
+
+.lista{
+    width: 652px;
+    height: 118px;
+    border-radius: 24px;
+    border: solid;
+    border-color: var(--color-5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elemento_1,
+.elemento_2,
+.elemento_3,
+.elemento_4{
+    width: 91px;
+    height: 70px;
+    background-color: azure;
+}
+
+.elemento_1{
+    margin-left: 24px;
+    margin-right: 80px;
+}
+
+.elemento_2{
+    margin-right: 80px;
+}
+
+.elemento_3{
+    margin-right: 80px;
+}
+
+.elemento_4{
+    margin-right: 24px;
+}
+
+.icono img{
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.texto_elemento{
+    width: 91px;
+    height: 38px;
+    line-height: auto;
+    letter-spacing: 0%;
+    font-family: "Work_Sans";
+    font-size: 16px;
+    color: var(--color-5);
+}
