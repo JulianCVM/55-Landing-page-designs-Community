@@ -26,7 +26,6 @@ body{
     left: 64px;
     width: 101.04px;
     height: 101.16px;
-    background-color: red;
     font-size: 14.22px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -106,8 +105,8 @@ body{
 
 .logo .s9{
     position: absolute;
-    top: 26,25px;
-    left: 8.7px;
+    top: 26.25px;
+    left: 3.83px;
     transform: rotate(116.36deg);
     width: 8px;
     height: 16px;
@@ -115,15 +114,186 @@ body{
 
 .logo .u10{
     position: absolute;
-    top: 17.35px;
-    left: 8.83px;
-    transform: rotate(128.14deg);
+    top: 35.18px;
+    left: 1.3px;
+    transform: rotate(104.58deg);
     width: 8px;
     height: 16px;
 }
 
+.logo .m11{
+    position: absolute;
+    top: 46.01px;
+    left: 0.75px;
+    transform: rotate(89.48deg);
+    width: 12px;
+    height: 16px;
+}
 
 
+.logo .d12{
+    position: absolute;
+    top: 61.94px;
+    left: 3.63px;
+    transform: rotate(66.28deg);
+    width: 8px;
+    height: 16px;
+}
+
+.logo .o13{
+    position: absolute;
+    top: 68.84px;
+    left: 8.46px;
+    transform: rotate(53.76deg);
+    width: 8px;
+    height: 16px;
+}
+
+.logo .l14{
+    position: absolute;
+    top: 75.1px;
+    left: 15.29px;
+    transform: rotate(53.76deg);
+    width: 4px;
+    height: 16px;
+}
+
+.logo .o15{
+    position: absolute;
+    top: 78.54px;
+    left: 21.23px;
+    transform: rotate(32.4deg);
+    width: 8px;
+    height: 16px;
+}
+
+.logo .r16{
+    position: absolute;
+    top: 82.58px;
+    left: 30.69px;
+    transform: rotate(21.36deg);
+    width: 5px;
+    height: 16px;
+}
+
+.logo .s17{
+    position: absolute;
+    top: 85.62px;
+    left: 45.73px;
+    transform: rotate(2.95deg);
+    width: 6px;
+    height: 16px;
+}
+
+.logo .i18{
+    position: absolute;
+    top: 85.32px;
+    left: 53.43px;
+    transform: rotate(-7deg);
+    width: 4px;
+    height: 16px;
+}
+
+.logo .t19{
+    position: absolute;
+    top: 83.98px;
+    left: 58.7px;
+    transform: rotate(-15.83deg);
+    width: 4px;
+    height: 16px;
+}
+
+.logo .a20{
+    position: absolute;
+    top: 77.73px;
+    left: 68px;
+    transform: rotate(-34.24deg);
+    width: 7px;
+    height: 16px;
+}
+
+.logo .m21{
+    position: absolute;
+    top: 69.16px;
+    left: 73.61px;
+    transform: rotate(-48.97deg);
+    width: 12px;
+    height: 16px;
+}
+
+.logo .e22{
+    position: absolute;
+    top: 63.25px;
+    left: 80.76px;
+    transform: rotate(-63.7deg);
+    width: 7px;
+    height: 16px;
+}
+
+.logo .t23{
+    position: absolute;
+    top: 58.97px;
+    left: 83.87px;
+    transform: rotate(-74.01deg);
+    width: 4px;
+    height: 16px;
+}
+
+.logo .asd24{
+    position: absolute;
+    top: 53.63px;
+    left: 85.25px;
+    transform: rotate(-82.48deg);
+    width: 4px;
+    height: 16px;
+}
+
+.logo .c25{
+    position: absolute;
+    top: 38.42px;
+    left: 84.51px;
+    transform: rotate(-100.53deg);
+    width: 7px;
+    height: 16px;
+}
+
+.logo .o26{
+    position: absolute;
+    top: 27.76px;
+    left: 81.4px;
+    transform: rotate(-112.68deg);
+    width: 8px;
+    height: 16px;
+}
+
+.logo .n27{
+    position: absolute;
+    top: 18.59px;
+    left: 76.91px;
+    transform: rotate(-125.2deg);
+    width: 8px;
+    height: 16px;
+}
+
+.logo .s28{
+    position: absolute;
+    top: 12.34px;
+    left: 72.6px;
+    transform: rotate(-136.98deg);
+    width: 6px;
+    height: 16px;
+}
+
+
+.logo img {
+    width: 23.7px;
+    height: 23.7px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
 
 
 
@@ -137,7 +307,6 @@ body{
     margin-top: 157px;
     margin-right: 24px;
     margin-bottom: 70px;
-    background-color: bisque;
 }
 
 
@@ -148,7 +317,6 @@ body{
     font-size: 64px;
     line-height: 80px;
     color: var(--color-2);
-    background-color: azure;
     font-family: "PlayfairDisplay_Display";
 }
 
@@ -175,7 +343,6 @@ body{
     height: 66px;
     margin-left: 24px;
     margin-right: 124px;
-    background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -244,7 +411,6 @@ body{
 .elemento_4{
     width: 91px;
     height: 70px;
-    background-color: azure;
 }
 
 .elemento_1{
@@ -303,7 +469,6 @@ body{
     width: 635.31px;
     height: 778.19px;
     position: relative;
-    background-color: aqua;
     margin-left: 24px;
 }
 
@@ -347,7 +512,6 @@ body{
     height: 628px;
     border-radius: 51.83px;
     z-index: 19;
-    background-color: red;
     right: 34.24px;
     object-fit: cover;
     bottom: 59.95px;
