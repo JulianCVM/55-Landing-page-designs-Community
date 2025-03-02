@@ -20,6 +20,93 @@ body{
     display: flex;
 }
 
+.logo{
+    position: absolute;
+    top: 64px;
+    left: 64px;
+    width: 101.04px;
+    height: 101.16px;
+    background-color: red;
+    font-size: 14.22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.logo .L1 {
+    position: absolute;
+    top: 4.76px;
+    left: 63.47px;
+    transform: rotate(-148.74deg);
+    width: 9px;
+    height: 16px;
+}
+
+.logo .o2{
+    position: absolute;
+    top: 1.68px;
+    left: 56.9px;
+    transform: rotate(-163.37deg);
+    width: 8px;
+    height: 16px;
+}
+
+.logo .r3{
+    position: absolute;
+    top: 0.82px;
+    left: 52.02px;
+    transform: rotate(-174.41deg);
+    width: 5px;
+    height: 16px;
+}
+
+.logo .e4{
+    position: absolute;
+    top: 0.75px;
+    left: 43.08px;
+    transform: rotate(174.91deg);
+    width: 7px;
+    height: 16px;
+}
+
+.logo .m5{
+    position: absolute;
+    top: 1.92px;
+    left: 28.17px;
+    transform: rotate(160.18deg);
+    width: 12px;
+    height: 16px;
+}
+
+.logo .r6{
+    position: absolute;
+    top: 7.88px;
+    left: 22.13px;
+    transform: rotate(147.29deg);
+    width: 4px;
+    height: 16px;
+}
+
+.logo .i7{
+    position: absolute;
+    top: 11.96px;
+    left: 16.59px;
+    transform: rotate(138.82deg);
+    width: 4px;
+    height: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .contenido{
@@ -170,6 +257,14 @@ body{
     font-size: 16px;
     color: var(--color-5);
 }
+
+
+
+
+
+
+
+
 
 
 
