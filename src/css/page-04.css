@@ -10,7 +10,6 @@ body {
     grid-template-columns: 716px auto;
     grid-template-areas: "imagen content_right"; 
     margin: 64px;
-    background-color: aqua;
     height: 100vh; 
 }
 
@@ -21,6 +20,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 64px;
+    margin-left: -64px;
 }
 
 .imagen img {
@@ -35,19 +36,16 @@ body {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: red;
     padding: 20px;
 }
 
 .cabecera {
     width: 500px;
     height: 415px;
-    background-color: blue;
     margin: 16px auto 0;
 }
 
 .titulo{
-    background-color: aqua;
     width: 500px;
     height: 153px;
     font-family: "AvenirLTStd-Heavy";
@@ -56,7 +54,6 @@ body {
 }
 
 .parrafo{
-    background-color: beige;
     width: 500px;
     height: 144px;
     font-family: "AvenirLTStd-Roman";
@@ -66,31 +63,31 @@ body {
 .boton {
     width: 158px;
     height: 54px;
-    background-color: black;
     border-radius: 16px;
     display: flex; 
     align-items: center;
     justify-content: center; 
     margin-top: 32px;
+    border-radius: 16px;
+    background-color: var(--color-2);
 }
 
 .boton a {
     font-family: "AvenirLTStd-Roman";
     font-size: 18px;
     text-decoration: none;
-    color: aliceblue;
     display: flex; 
     align-items: center; 
     justify-content: center; 
     width: 100%; 
     height: 100%; 
+    color: white;
 }
 
 
 .text_list {
     width: 500px;
     height: 334px;
-    background-color: blueviolet;
     margin: 88px auto 0; 
 }
 
