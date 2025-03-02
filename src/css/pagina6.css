@@ -10,5 +10,27 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "contenido";
+    margin: 64px;
 }
+
+.contenido{
+    width: 653px;
+    height: 221px;
+    margin-top: 157px;
+    margin-right: 24px;
+    margin-bottom: 70px;
+    background-color: bisque;
+}
+
+
+.titulo_principal{
+    width: 629px;
+    height: 240px;
+    margin-left: 24px;
+    font-size: 64px;
+    line-height: 80px;
+    color: var(--color-2);
+    background-color: azure;
+}
+
 

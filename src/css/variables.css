@@ -1,8 +1,14 @@
 :root{
     --color-1: #000000;
+    --color-2: #050505;
 }
 
 @font-face {
     font-family: "example";
     src: url(../storage/fonts/example.ttf);
+}
+
+@font-face {
+    font-family: "example";
+    src: url(../storage/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
 }
