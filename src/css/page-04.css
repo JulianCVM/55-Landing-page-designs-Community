@@ -7,44 +7,115 @@
 
 body {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "content_right"; 
+    grid-template-columns: 716px auto;
+    grid-template-areas: "imagen content_right"; 
     margin: 64px;
     background-color: aqua;
     height: 100vh; 
-    position: relative;
 }
 
-body .content_right {    
+.imagen {
+    grid-area: imagen;
+    width: 716px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.content_right {    
     grid-area: content_right;
     display: flex;
-    position: relative;
-    width: 724px;
-    height: 997px;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
     background-color: red;
-    margin-left: 716px;
-    margin-top: 2px;
+    padding: 20px;
 }
 
-body .content_right .cabecera {
+.cabecera {
     width: 500px;
     height: 415px;
-    position: absolute;
-    top: 80px;
-    left: 112px;
-    right: 112px;
-    bottom: 502px;
     background-color: blue;
+    margin: 16px auto 0;
 }
 
-body .content_right .text_list{
+.titulo{
+    background-color: aqua;
+    width: 500px;
+    height: 153px;
+    font-family: "AvenirLTStd-Heavy";
+    font-size: 64px;
+    margin-bottom: 32px;
+}
+
+.parrafo{
+    background-color: beige;
+    width: 500px;
+    height: 144px;
+    font-family: "AvenirLTStd-Roman";
+    font-size: 26px;
+}
+
+.boton {
+    width: 158px;
+    height: 54px;
+    background-color: black;
+    border-radius: 16px;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    margin-top: 32px;
+}
+
+.boton a {
+    font-family: "AvenirLTStd-Roman";
+    font-size: 18px;
+    text-decoration: none;
+    color: aliceblue;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    height: 100%; 
+}
+
+
+.text_list {
     width: 500px;
     height: 334px;
-    background-color: black;
-    position: absolute;
-    margin-top: 88px;
-    left: 112px;
-    right: 112px;
-    bottom: 80px;
+    background-color: blueviolet;
+    margin: 88px auto 0; 
 }
+
+.elemento_1, .elemento_2 {
+    width: 100%;
+    height: 147px;
+}
+
+.elemento_2 {
+    margin-top: 40px;
+}
+
+.title_1,
+.title_2{
+    font-family: "AvenirLTStd-Roman";
+    font-size: 32px;
+    color: var(--color-2);
+    opacity: 0.55;
+}
+
+.parrafo_1,
+.parrafo_2{
+    font-family: "AvenirLTStd-Roman";
+    font-size: 24px;
+    color: var(--color-2);
+    opacity: 0.8;
+}
+
