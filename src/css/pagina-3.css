@@ -7,12 +7,11 @@
 /*---------------------------------------------------------*/
 body {
     display: grid;
-    grid-template-columns: 1fr; /* Columna única que se ajusta automáticamente */
-    grid-template-rows: 1fr; /* Fila única que ocupa todo el alto */
-    margin: 64px; /* Espaciado desde los bordes de la ventana */
-    background-color: aqua;
-    width: calc(100vw - 128px); /* 100% del ancho menos los márgenes */
-    height: calc(100vh - 128px); /* 100% del alto menos los márgenes */
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr; 
+    margin: 64px; 
+    width: calc(100vw - 128px); 
+    height: calc(100vh - 128px); 
 }
 
 /*---------------------------------------------------------*/
@@ -27,7 +26,6 @@ body .contenido{
 body .contenido .content{
     width: 526px;
     height: 174px;
-    background-color: red;
     margin-top: 58px;
     margin-left: auto;
     margin-bottom: 113px;
@@ -87,6 +85,7 @@ body .imagen{
 body .imagen img{
     max-width:  100%;
     height: auto;
+    background-color: azure;
 }
 
 
