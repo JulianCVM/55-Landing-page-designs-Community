@@ -1,6 +1,7 @@
 :root{
     --color-1: #000000;
     --color-2: #050505;
+    --color-3: #333333;
 }
 
 @font-face {
@@ -9,6 +10,11 @@
 }
 
 @font-face {
-    font-family: "example";
+    font-family: "Playfair_Display";
     src: url(../storage/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Work_Sans";
+    src: url(../storage/fonts/Playfair_Display-Work_Sans/Work_Sans/WorkSans-VariableFont_wght.ttf);
 }

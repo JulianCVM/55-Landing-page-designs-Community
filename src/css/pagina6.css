@@ -15,7 +15,7 @@ body{
 
 .contenido{
     width: 653px;
-    height: 221px;
+    height: 460px;
     margin-top: 157px;
     margin-right: 24px;
     margin-bottom: 70px;
@@ -31,6 +31,23 @@ body{
     line-height: 80px;
     color: var(--color-2);
     background-color: azure;
+    font-family: "PlayfairDisplay_Display";
 }
+
+
+.parrafo_principal{
+    width: 629px;
+    height: 90px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    font-size: 24px;
+    color: var(--color-3);
+    margin-left: 24px;
+    margin-top: 32px;
+    font-family: "Work_Sans";
+    color:var(--color-3);
+    margin-bottom: 32px;
+}
+
 
 
