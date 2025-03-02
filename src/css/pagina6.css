@@ -95,10 +95,32 @@ body{
     height: 16px;
 }
 
+.logo .p8{
+    position: absolute;
+    top: 17.35px;
+    left: 8.83px;
+    transform: rotate(128.14deg);
+    width: 8px;
+    height: 16px;
+}
 
+.logo .s9{
+    position: absolute;
+    top: 26,25px;
+    left: 8.7px;
+    transform: rotate(116.36deg);
+    width: 8px;
+    height: 16px;
+}
 
-
-
+.logo .u10{
+    position: absolute;
+    top: 17.35px;
+    left: 8.83px;
+    transform: rotate(128.14deg);
+    width: 8px;
+    height: 16px;
+}
 
 
 
