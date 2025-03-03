@@ -1,0 +1,85 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "titulo titulo titulo nada"
+    "parrafo1 parrafo2 parrafo3 parrafo4"
+    "imagen1 imagen2 imagen3 imagen4";
+    margin: 64px;
+    gap: 20px;
+}
+
+.titulo{
+    width: 833px;
+    height: 176px;
+    background-color: red;
+    grid-area: titulo;
+}
+
+
+.parrafo1{
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    grid-area: parrafo1;
+}
+
+.parrafo2{
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+    grid-area: parrafo2;
+}
+
+.parrafo3{
+    width: 100%;
+    height: auto;
+    background-color: green;
+    grid-area: parrafo3;
+}
+
+.parrafo4{
+    width: 100%;
+    height: auto;
+    background-color: red;
+    grid-area: parrafo4;
+}
+
+
+.imagen1{
+    width: 100%;
+    height: auto;
+    background-color: green;
+    grid-area: imagen1;
+}
+
+.imagen2{
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    grid-area: imagen2;
+}
+
+.imagen3{
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+    grid-area: imagen3;
+}
+
+.imagen4{
+    width: 100%;
+    height: auto;
+    background-color: red;
+    grid-area: imagen4;
+}
+
