@@ -33,6 +33,33 @@ body{
     grid-area: parrafo1;
 }
 
+.titulo1, .titulo2, .titulo3, .titulo4{
+    width: 100%;
+    height: auto;
+    background-color: green;
+    grid-area: titulo1;
+    font-size: 40px;
+    font-family: "AvenirLTStd-Heavy";
+    color: var(--color-2);
+    opacity: 0.35;
+}
+
+.texto1, .texto2, .texto3, .texto4{
+    width: 100%;
+    height: auto;
+    background-color: red;
+    grid-area: texto1;
+    font-size: 24px;
+    font-family: "AvenirLTStd-Roman";
+    color: var(--color-2);
+    opacity: 0.8;
+}
+
+
+
+
+
+
 .parrafo2{
     width: 100%;
     height: auto;
