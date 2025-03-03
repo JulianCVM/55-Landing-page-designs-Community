@@ -1,8 +1,19 @@
 :root{
     --color-1: #000000;
+    --color-2: #E5B94B;
+    --color-3: #AB2706;
+    --color-4: #9C2004;
 }
 
 @font-face {
     font-family: "example";
     src: url(../storage/fonts/example.ttf);
 }
+
+@font-face {
+    font-family: "WorkSans";
+    src: url(../storage/fonts/Inter_Work_Sans/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+
+
+

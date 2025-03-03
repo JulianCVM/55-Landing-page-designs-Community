@@ -7,12 +7,16 @@
 
 body{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: minmax(656px, 1fr) minmax(487px, 1fr);
+    grid-template-rows: auto auto;
     grid-template-areas: 
     "imagen titulo"
     "imagen contenido";
     margin: 64px;
+    column-gap: 169px;
+    row-gap: 64px;
+    min-height: 100vh;
+    background-image: linear-gradient(135deg, var(--color-4), var(--color-3));
 }
 
 
@@ -21,11 +25,11 @@ body{
     width: 656px;
     height: 861.5px;
     display: flex;
-    background-color: red;
     position: relative;
+    bottom: -64px;
 }
 
-.imagen img{
+.imagen .img_persona{
     width: 618.33px;
     height: 795.5px;
     object-fit: cover;
@@ -35,3 +39,41 @@ body{
     z-index: 5;
 }
 
+.imagen .pattern{
+    width: 224px;
+    height: 224px;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    z-index: 3;
+}
+
+.imagen .pattern-1{
+    width: 224px;
+    height: 224px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 3;
+}
+
+.imagen .circulo{
+    width: 656px;
+    height: 656px;
+    position: absolute;
+    background-color: var(--color-2);
+    border-radius: 50%;
+}
+
+
+
+
+.titulo{
+    grid-area: titulo;
+    font-family: "WorkSans";
+    font-size: 100px;
+    color: var(--color-2);
+    line-height: 104px;
+    font-weight: 700;
+    font-size: 88px;
+}
