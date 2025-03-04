@@ -74,7 +74,7 @@ body{
     grid-area: titulo;
     font-family: "WorkSans";
     font-size: 100px;
-    color: var(--color-2);
+    color: var(--color-5);
     line-height: 104px;
     font-weight: 700;
     font-size: 88px;
@@ -90,7 +90,33 @@ body{
     display: flex;
     grid-area: contenido;
     font-family: "WorkSans";
-    color: var(--color-2);
-    background-color: red;
+    color: var(--color-5);
+    width: 487px;
+    height: 647px;
 }
 
+.contenido p{
+    bottom: -157px;
+    position: absolute;
+    width: 487px;
+    height: 96px;
+    font-size: 24px;
+    font-family: "WorkSans";
+    line-height: 32px;
+}
+
+.contenido a{
+    position: absolute;
+    bottom: -276px;
+    width: 231px;
+    height: 82px;
+    background-color: var(--color-2);
+    border-radius: 36px;
+    font-family: "WorkSans";
+    font-size: 32px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-1);
+}
