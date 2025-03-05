@@ -1,9 +1,24 @@
 :root{
     --color-1: #000000;
+
+    --color-2: #252525;
+    --color-3: #ffffff;
+    --color-4: #050505;
+    --color-5: #333333;
+    --color-6: #111111;
+    --color-7: #685FD4;
+    --color-8: #E5B94B;
+    --color-9: #AB2706;
+    --color-10: #9C2004;
+
+
+
+    /* 
     --color-2: #E5B94B;
     --color-3: #AB2706;
     --color-4: #9C2004;
     --color-5: #FFFFFF;
+    */
 }
 
 @font-face {
@@ -16,5 +31,23 @@
     src: url(../storage/fonts/Inter_Work_Sans/Work_Sans/WorkSans-VariableFont_wght.ttf);
 }
 
+@font-face {
 
+    font-family: "Playfair_Display";
+    src: url(../storage/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Work_Sans";
+    src: url(../storage/fonts/Playfair_Display-Work_Sans/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "AvenirLTStd-Heavy";
+    src: url(../storage/fonts/Avenir-Font-Family/AvenirLTStd-Heavy.otf);
+}
+
+@font-face {
+    font-family: "AvenirLTStd-Roman";
+    src: url(../storage/fonts/Avenir-Font-Family/AvenirLTStd-Roman.otf);
+}
 

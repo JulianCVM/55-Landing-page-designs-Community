@@ -16,7 +16,7 @@ body{
     column-gap: 169px;
     row-gap: 40px;
     min-height: 100vh;
-    background-image: linear-gradient(135deg, var(--color-4), var(--color-3));
+    background-image: linear-gradient(135deg, var(--color-10), var(--color-9));
 }
 
 
@@ -61,7 +61,7 @@ body{
     width: 656px;
     height: 656px;
     position: absolute;
-    background-color: var(--color-2);
+    background-color: var(--color-8);
     border-radius: 50%;
 }
 
@@ -74,7 +74,7 @@ body{
     grid-area: titulo;
     font-family: "WorkSans";
     font-size: 100px;
-    color: var(--color-5);
+    color: var(--color-9);
     line-height: 104px;
     font-weight: 700;
     font-size: 88px;
@@ -90,7 +90,7 @@ body{
     display: flex;
     grid-area: contenido;
     font-family: "WorkSans";
-    color: var(--color-5);
+    color: var(--color-9);
     width: 487px;
     height: 647px;
 }
@@ -110,7 +110,7 @@ body{
     bottom: -276px;
     width: 231px;
     height: 82px;
-    background-color: var(--color-2);
+    background-color: var(--color-8);
     border-radius: 36px;
     font-family: "WorkSans";
     font-size: 32px;
