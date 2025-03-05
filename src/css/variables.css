@@ -1,8 +1,7 @@
 :root{
     --color-1: #000000;
     --color-2: #252525;
-    --color-3: #FFFFFF;
-
+    --color-3: #ffffff;
 }
 
 @font-face {
@@ -17,5 +16,5 @@
 
 @font-face {
     font-family: "AvenirLTStd-Roman";
-    src: url(../storage/fonts/Avenir-Font-Family/AvenirLTStd-Roman.otf);    
+    src: url(../storage/fonts/Avenir-Font-Family/AvenirLTStd-Roman.otf);
 }
