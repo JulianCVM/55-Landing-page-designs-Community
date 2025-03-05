@@ -1,0 +1,122 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: minmax(656px, 1fr) minmax(487px, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "imagen titulo"
+    "imagen contenido";
+    margin: 64px;
+    column-gap: 169px;
+    row-gap: 40px;
+    min-height: 100vh;
+    background-image: linear-gradient(135deg, var(--color-10), var(--color-9));
+}
+
+
+.imagen{
+    grid-area: imagen;
+    width: 656px;
+    height: 861.5px;
+    display: flex;
+    position: relative;
+    bottom: -64px;
+}
+
+.imagen .img_persona{
+    width: 618.33px;
+    height: 795.5px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.imagen .pattern{
+    width: 224px;
+    height: 224px;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    z-index: 3;
+}
+
+.imagen .pattern-1{
+    width: 224px;
+    height: 224px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 3;
+}
+
+.imagen .circulo{
+    width: 656px;
+    height: 656px;
+    position: absolute;
+    background-color: var(--color-8);
+    border-radius: 50%;
+}
+
+
+
+
+.titulo{
+    display: flex;
+    position: relative;
+    grid-area: titulo;
+    font-family: "WorkSans";
+    font-size: 100px;
+    color: var(--color-9);
+    line-height: 104px;
+    font-weight: 700;
+    font-size: 88px;
+}
+
+.titulo p{
+    position: absolute;
+    top: 134px;
+}
+
+
+.contenido{
+    display: flex;
+    grid-area: contenido;
+    font-family: "WorkSans";
+    color: var(--color-9);
+    width: 487px;
+    height: 647px;
+}
+
+.contenido p{
+    bottom: -157px;
+    position: absolute;
+    width: 487px;
+    height: 96px;
+    font-size: 24px;
+    font-family: "WorkSans";
+    line-height: 32px;
+}
+
+.contenido a{
+    position: absolute;
+    bottom: -276px;
+    width: 231px;
+    height: 82px;
+    background-color: var(--color-8);
+    border-radius: 36px;
+    font-family: "WorkSans";
+    font-size: 32px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-1);
+}
